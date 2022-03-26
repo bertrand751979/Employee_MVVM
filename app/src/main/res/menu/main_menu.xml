@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_icon"
+        android:title="Menu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/search_skills"
+                android:title="Recherche par poste"
+                app:showAsAction="always">
+            </item>
+            <item android:id="@+id/search_year"
+                android:title="Recherche par Année"
+                app:showAsAction="always">
+            </item>
+            <item android:id="@+id/search_surname"
+                android:title="Recherche par Nom de Famille"
+                app:showAsAction="always">
+            </item>
+            <item android:id="@+id/search_reboot"
+                android:title="Reboot"
+                app:showAsAction="always">
+            </item>
+        </menu>
+    </item>
+</menu>
